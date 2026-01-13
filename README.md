@@ -13,7 +13,7 @@ Python/PyQt5 n-back task (baseline, 1-4 back) that emits Lab Streaming Layer (LS
 
 ## Tested environment
 Update this section with the exact environment used for your release.
-- OS: Windows (developed on Windows; confirm exact version)
+- OS: Windows (developed on Windows 11 Professional)
 - Python: 3.x
 - PyQt5: 5.15.x
 - pylsl: 1.16.x
