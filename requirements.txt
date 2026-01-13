@@ -1,0 +1,4 @@
+PyQt5>=5.15,<6
+pylsl>=1.16,<2
+numpy>=1.21,<2
+playsound==1.2.2

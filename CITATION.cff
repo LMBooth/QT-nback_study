@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "4 Difficulty Levels + Baseline N-Back Study"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Booth
+    given-names: Liam
+    orcid: "https://orcid.org/0000-0002-8749-9726"

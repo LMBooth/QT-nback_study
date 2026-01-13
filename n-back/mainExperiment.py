@@ -69,6 +69,8 @@ class MainExperiment(QtWidgets.QTabWidget):
         layout.addWidget(self.buttonBeginRoutine)
         markerInfo = pylsl.StreamInfo("n-backMarkers", 'Markers', 1, 0, 'string', 'UoH')
         self.markerOutlet = pylsl.StreamOutlet(markerInfo)
+        self.correct_sound = os.path.join(os.path.dirname(__file__), "Correct.mp3")
+        self.incorrect_sound = os.path.join(os.path.dirname(__file__), "Incorrect.mp3")
 
     def BeginRoutine(self): 
         if self.tutorial:
@@ -107,10 +109,10 @@ class MainExperiment(QtWidgets.QTabWidget):
         else:
             self.target = False
             if self.rememberCount != 0:
-                while(letter is self.desiredLetter):
+                while(letter == self.desiredLetter):
                     letter = random.choice(self.ASCIILetters)
                     #print("stuck1")
-                    while(letter is self.prevLetter):
+                    while(letter == self.prevLetter):
                         letter = random.choice(self.ASCIILetters)
                         #print("stuck2")
         print(str(self.remember) +" "+ str(self.rememberCount)+" "+ str(self.numberBack) +" "+str(self.currentTriggerCount) + " " +self.desiredLetter +" "+letter)
@@ -174,9 +176,9 @@ class MainExperiment(QtWidgets.QTabWidget):
         if self.tutorial:# and self.triggerCount >= self.numberBack:
             if self.keyPress == self.target:
                 #Thread(target=playsound, args=(os.path.dirname(__file__)+'\eyes_open.mp3',), daemon=True).start()
-                Thread(target=playsound, args=(os.path.dirname(__file__)+'\correct.mp3',), daemon=True).start()
+                Thread(target=playsound, args=(self.correct_sound,), daemon=True).start()
             else:
-                Thread(target=playsound, args=(os.path.dirname(__file__)+'\incorrect.mp3',), daemon=True).start()    
+                Thread(target=playsound, args=(self.incorrect_sound,), daemon=True).start()    
         self.markerOutlet.push_sample(["Steps:"+str(self.numberBack)+" KeyPress:"+str(self.keyPress)+" Matched:"+str(match)])
         print("Steps:"+str(self.numberBack)+" KeyPress:"+str(self.keyPress)+" Target:"+str(self.target))
         self.keyPress = False
