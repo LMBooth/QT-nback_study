@@ -6,15 +6,14 @@ Python/PyQt5 n-back task (baseline, 1-4 back) that emits Lab Streaming Layer (LS
 - `n-back/Correct.mp3`, `n-back/Incorrect.mp3`: tutorial feedback sounds
 
 ## Requirements
-- Python 3.9+ with GUI support
+- Python 3.12+ with GUI support
 - Packages in `requirements.txt`
 - Audio output for tutorial feedback
 - Optional: an LSL receiver (for example, LabRecorder) if you want to record markers
 
 ## Tested environment
-Update this section with the exact environment used for your release.
 - OS: Windows (developed on Windows 11 Professional)
-- Python: 3.x
+- Python: 3.12+
 - PyQt5: 5.15.x
 - pylsl: 1.16.x
 - numpy: 1.x
