@@ -1,0 +1,23 @@
+{
+  "note": "Per-subject ECG channel location. Only one of D1 or D3 contains ECG; remaining D* channels are auxiliary/unused and should be typed MISC in *_channels.tsv.",
+  "nback": {
+    "sub-001": "D1",
+    "sub-002": "D1",
+    "sub-003": "D3",
+    "sub-004": "D1",
+    "sub-005": "D1",
+    "sub-006": "D3",
+    "sub-007": "D3",
+    "sub-008": "D1",
+    "sub-009": "D1",
+    "sub-010": "D3",
+    "sub-011": "D3",
+    "sub-012": "D3",
+    "sub-014": "D3",
+    "sub-015": "D3",
+    "sub-016": "D3",
+    "sub-018": "D3",
+    "sub-019": "D1",
+    "sub-020": "D3"
+  }
+}

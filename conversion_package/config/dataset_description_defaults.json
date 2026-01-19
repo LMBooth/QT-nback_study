@@ -1,0 +1,14 @@
+{
+  "Name": "Cognitive Workload n-back",
+  "Authors": [
+    "Matthew Barras",
+    "Liam Booth"
+  ],
+  "License": "CC0-1.0",
+  "SourceDatasets": [
+    {
+      "Directory": "sourcedata",
+      "Version": "1.0.0"
+    }
+  ]
+}

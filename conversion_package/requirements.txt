@@ -1,0 +1,5 @@
+numpy
+pyxdf
+mne
+mne-bids
+pybv

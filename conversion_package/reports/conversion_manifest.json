@@ -1,0 +1,440 @@
+{
+  "created_utc": "2026-01-19T00:21:00Z",
+  "repo_root": ".",
+  "environment": {
+    "python": {
+      "version": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+      "executable": "C:\\Python312\\python.exe",
+      "implementation": "CPython"
+    },
+    "platform": {
+      "system": "Windows",
+      "release": "11",
+      "version": "10.0.26100",
+      "machine": "AMD64"
+    },
+    "packages": {
+      "numpy": "2.2.6",
+      "pyxdf": "1.16.8",
+      "mne": "1.9.0",
+      "mne-bids": "0.18.0",
+      "pybv": "0.7.6"
+    },
+    "pip_freeze": [
+      "absl-py==2.1.0",
+      "acres==0.5.0",
+      "alabaster==1.0.0",
+      "antropy==0.1.6",
+      "astunparse==1.6.3",
+      "babel==2.17.0",
+      "beautifulsoup4==4.13.4",
+      "bids-validator==1.14.7.post0",
+      "bidsschematools==1.1.4",
+      "certifi==2024.8.30",
+      "cffi==1.17.1",
+      "charset-normalizer==3.4.0",
+      "clarabel==0.9.0",
+      "click==8.3.1",
+      "colorama==0.4.6",
+      "contourpy==1.3.1",
+      "curl_cffi==0.11.2",
+      "cvxpy==1.6.0",
+      "cycler==0.12.1",
+      "decorator==5.1.1",
+      "docutils==0.21.2",
+      "filelock==3.16.1",
+      "flatbuffers==24.3.25",
+      "fonttools==4.55.3",
+      "frozendict==2.4.6",
+      "fsspec==2024.10.0",
+      "furo==2024.8.6",
+      "gast==0.6.0",
+      "geopandas==1.1.1",
+      "google-pasta==0.2.0",
+      "grpcio==1.68.1",
+      "guzzle_sphinx_theme==0.7.11",
+      "h5py==3.12.1",
+      "idna==3.10",
+      "imagesize==1.4.1",
+      "Jinja2==3.1.4",
+      "joblib==1.4.2",
+      "kagglehub==0.3.6",
+      "keras==3.7.0",
+      "kiwisolver==1.4.8",
+      "lazy_loader==0.4",
+      "libclang==18.1.1",
+      "liesl==0.3.5.0",
+      "llvmlite==0.43.0",
+      "Markdown==3.7",
+      "markdown-it-py==3.0.0",
+      "MarkupSafe==3.0.2",
+      "matplotlib==3.10.0",
+      "mdurl==0.1.2",
+      "ml-dtypes==0.4.1",
+      "mne==1.9.0",
+      "mne-bids==0.18.0",
+      "mpmath==1.3.0",
+      "multitasking==0.0.11",
+      "namex==0.0.8",
+      "networkx==3.4.2",
+      "numba==0.60.0",
+      "numpy==2.2.6",
+      "opt_einsum==3.4.0",
+      "optree==0.13.1",
+      "osmnx==2.0.6",
+      "osqp==0.6.7.post3",
+      "packaging==24.2",
+      "pandas==2.2.3",
+      "peewee==3.18.1",
+      "pillow==11.0.0",
+      "platformdirs==4.3.6",
+      "playsound==1.2.2",
+      "pooch==1.8.2",
+      "protobuf==5.29.1",
+      "PyAudio==0.2.14",
+      "pybci-package==1.5.1",
+      "pybv==0.7.6",
+      "pycparser==2.22",
+      "pydub==0.25.1",
+      "Pygments==2.18.0",
+      "pylsl==1.16.1",
+      "pyogrio==0.11.1",
+      "PyOpenGL==3.1.7",
+      "pyparsing==3.2.0",
+      "pypdf==6.5.0",
+      "pyproj==3.7.2",
+      "PyQt5==5.15.11",
+      "PyQt5-Qt5==5.15.2",
+      "PyQt5_sip==12.16.1",
+      "pyqtgraph==0.13.7",
+      "pyserial==3.5",
+      "python-dateutil==2.9.0.post0",
+      "pytz==2024.2",
+      "PyWavelets==1.8.0",
+      "pyxdf==1.16.8",
+      "PyYAML==6.0.3",
+      "qdldl==0.1.7.post4",
+      "requests==2.32.3",
+      "rich==13.9.4",
+      "roman-numerals-py==3.1.0",
+      "scikit-learn==1.6.0",
+      "scipy==1.14.1",
+      "scs==3.2.7",
+      "setuptools==75.6.0",
+      "shapely==2.1.1",
+      "six==1.17.0",
+      "snowballstemmer==3.0.1",
+      "soupsieve==2.7",
+      "Sphinx==8.2.3",
+      "sphinx-basic-ng==1.0.0b2",
+      "sphinx-bootstrap-theme==0.8.1",
+      "sphinx-rtd-theme==3.0.2",
+      "sphinx-typo3-theme==4.9.0",
+      "sphinxcontrib-applehelp==2.0.0",
+      "sphinxcontrib-devhelp==2.0.0",
+      "sphinxcontrib-htmlhelp==2.1.0",
+      "sphinxcontrib-jquery==4.1",
+      "sphinxcontrib-jsmath==1.0.1",
+      "sphinxcontrib-qthelp==2.0.0",
+      "sphinxcontrib-serializinghtml==2.0.0",
+      "stochastic==0.6.0",
+      "sympy==1.13.1",
+      "tensorboard==2.18.0",
+      "tensorboard-data-server==0.7.2",
+      "tensorflow==2.18.0",
+      "tensorflow_intel==2.18.0",
+      "termcolor==2.5.0",
+      "threadpoolctl==3.5.0",
+      "torch==2.5.1",
+      "tqdm==4.67.1",
+      "typing_extensions==4.12.2",
+      "tzdata==2024.2",
+      "urllib3==2.2.3",
+      "websockets==15.0.1",
+      "Werkzeug==3.1.3",
+      "wheel==0.45.1",
+      "wrapt==1.17.0",
+      "yfinance==0.2.61"
+    ],
+    "pip_freeze_error": null
+  },
+  "git": {
+    "commit": "eca9f08f1ad11dfc466da78f282bc6c46e4a2018",
+    "dirty": true,
+    "describe": "eca9f08-dirty"
+  },
+  "inputs": {
+    "raw_dirs": [
+      {
+        "path": "nback_Data/sourcedata",
+        "file_count": 18
+      }
+    ],
+    "raw_xdf": [
+      {
+        "path": "nback_Data/sourcedata/001_nback.xdf",
+        "size_bytes": 67541635,
+        "mtime_utc": "2023-04-19T14:38:54Z",
+        "sha256": "7400b5690afc8a3f4afc57dd37ebb26fb2b6841d6dbf511826d2604dca1c53a5",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/002_nback.xdf",
+        "size_bytes": 66948197,
+        "mtime_utc": "2023-04-19T14:58:22Z",
+        "sha256": "630a291c963b7bfe0609498275c448abd994f44cc69605242fdc3aad74951c63",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/003_nback.xdf",
+        "size_bytes": 68968375,
+        "mtime_utc": "2023-06-19T17:36:00Z",
+        "sha256": "121b4e7f3c4fa0754ed6696bea7dd673ff635fe97f4dd1bcb470626ee918c23f",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/004_nback.xdf",
+        "size_bytes": 70056351,
+        "mtime_utc": "2023-04-19T16:11:42Z",
+        "sha256": "e828c55f41802ec6165d4c88c37e0ec20fc95af8d7035f42be623f313efaa370",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/005_nback.xdf",
+        "size_bytes": 73799552,
+        "mtime_utc": "2023-04-21T12:01:30Z",
+        "sha256": "7bee431a5223fccff4e0fe1b72ccae79cf93250d60a59a42068446d832dbfdd2",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/006_nback.xdf",
+        "size_bytes": 81677742,
+        "mtime_utc": "2023-04-24T12:22:00Z",
+        "sha256": "dde86edc78c8ebcb9ad943929450238ff783ce9cdb88faed6733aca8cc3f7c0e",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/007_nback.xdf",
+        "size_bytes": 68974791,
+        "mtime_utc": "2023-04-24T13:47:58Z",
+        "sha256": "8c47411523354d47ce1774b1c45bf84ef76a3a496eca858ed3eef00797548f00",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/008_nback.xdf",
+        "size_bytes": 72719374,
+        "mtime_utc": "2023-04-26T18:41:06Z",
+        "sha256": "dc84f59338d05dd9747a26772d8ba1b9259aa5c79963f27c5086c91a77cac536",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/009_nback.xdf",
+        "size_bytes": 74902759,
+        "mtime_utc": "2023-04-27T14:02:16Z",
+        "sha256": "48e92762579baf4ebbdc643d73c0fbb642583be2aca3404f3629cec242ad3d7d",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/010_nback.xdf",
+        "size_bytes": 69699374,
+        "mtime_utc": "2023-05-01T12:08:34Z",
+        "sha256": "d37f169058a82fe0d8df2ff2aceb6991f37b9d4ae09249f6af74e7d0732b5497",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/011_nback.xdf",
+        "size_bytes": 75899359,
+        "mtime_utc": "2023-05-02T10:54:32Z",
+        "sha256": "c3719a905c07b6aa78f1e425df6894b177baaf921ccff745ed977382519c433f",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/012_nback.xdf",
+        "size_bytes": 75834333,
+        "mtime_utc": "2023-05-02T13:54:38Z",
+        "sha256": "812cf97180e658a5658f0758ad3551842c850c82a55340c7b38d943e2221ca9d",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/014_nback.xdf",
+        "size_bytes": 67762953,
+        "mtime_utc": "2023-05-15T12:12:50Z",
+        "sha256": "e36b235b593f82f9c0cc4d52b9821c390b6e799da08a1eae1480a9b60ad5844b",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/015_nback.xdf",
+        "size_bytes": 71536944,
+        "mtime_utc": "2023-05-16T11:48:32Z",
+        "sha256": "afae480c534a2e309e50be786084a3b02557a11fd642987a43db7fbe0873676b",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/016_nback.xdf",
+        "size_bytes": 69144270,
+        "mtime_utc": "2023-06-06T18:39:24Z",
+        "sha256": "8b331ba20551490c2ba5e16370a89047fdec045e23ce0b90bd014685e927e768",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/018_nback.xdf",
+        "size_bytes": 69490125,
+        "mtime_utc": "2023-06-07T20:02:00Z",
+        "sha256": "4879334cbbe44b289f8da1aa050952f5a92eba04e682581d05b9f5568403a24d",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/019_nback.xdf",
+        "size_bytes": 73962162,
+        "mtime_utc": "2023-06-16T16:47:56Z",
+        "sha256": "2d57a201e77e120d435b7de9ead70fa09df1968af0cecef4254e28b6707e3884",
+        "source_dir": "nback_Data/sourcedata"
+      },
+      {
+        "path": "nback_Data/sourcedata/020_nback.xdf",
+        "size_bytes": 71877687,
+        "mtime_utc": "2023-06-27T17:55:08Z",
+        "sha256": "bc98a6a9a130fda7ac6c042b4d0be1ae4af0f837fc2e347b7290a006eb31d076",
+        "source_dir": "nback_Data/sourcedata"
+      }
+    ],
+    "participant_info_xlsx": {
+      "path": "participant_info.xlsx",
+      "size_bytes": 8906,
+      "mtime_utc": "2026-01-17T13:59:15Z",
+      "sha256": "60eafad61be9a58b780e8c5f1e7f9396030865eb5723a01845c821889e1403a7"
+    }
+  },
+  "conversion_package": {
+    "files": [
+      {
+        "path": "conversion_package/config/dataset_description_defaults.json",
+        "size_bytes": 222,
+        "mtime_utc": "2026-01-18T20:51:42Z",
+        "sha256": "1cb294e7f6cc200f62f2b30ae95cac02173cba168e3293c10616685a66cd2725"
+      },
+      {
+        "path": "conversion_package/config/ecg_channel_map.json",
+        "size_bytes": 567,
+        "mtime_utc": "2026-01-19T00:16:16Z",
+        "sha256": "284f9c460b72f70b169eeadfbf8120b14ef8201fa259031e8ab50e463ca78e82"
+      },
+      {
+        "path": "conversion_package/config/sidecar_defaults.json",
+        "size_bytes": 1130,
+        "mtime_utc": "2026-01-18T20:51:49Z",
+        "sha256": "36fad8fc2af8a415cfe33036c8dbaea3a38e7e2c6d7f7ffa9382ba53ff1cddc6"
+      },
+      {
+        "path": "conversion_package/qc/bids_signal_viewer.py",
+        "size_bytes": 48228,
+        "mtime_utc": "2026-01-18T20:52:08Z",
+        "sha256": "78b0b37ab6d332fab041b84e9b3517dc3dc14b8eea2db5781e0e7e665f3fdda4"
+      },
+      {
+        "path": "conversion_package/qc/README.md",
+        "size_bytes": 1394,
+        "mtime_utc": "2026-01-19T00:13:27Z",
+        "sha256": "79f3ce42e6b26a6a3f9707cc4062330a8ca7389c849174958bbe16dda57cebe7"
+      },
+      {
+        "path": "conversion_package/README.md",
+        "size_bytes": 10136,
+        "mtime_utc": "2026-01-18T20:57:08Z",
+        "sha256": "7c8bb407f602dcd441ea547e945275b310830ad6115940f92913d06870d2a309"
+      },
+      {
+        "path": "conversion_package/reports/conversion_manifest.json",
+        "size_bytes": 14755,
+        "mtime_utc": "2026-01-19T00:12:49Z",
+        "sha256": "5c34156b52d70ab394c8f917c425e61afdb1488f42f747b30ee8a33f7c8f5c96"
+      },
+      {
+        "path": "conversion_package/requirements-qc.txt",
+        "size_bytes": 17,
+        "mtime_utc": "2026-01-13T00:23:58Z",
+        "sha256": "0311cb3e5b5aaf9f088e9a59fc1f5c7d2c646f5a77c3a866e89b776ce48001f4"
+      },
+      {
+        "path": "conversion_package/requirements.lock.txt",
+        "size_bytes": 2512,
+        "mtime_utc": "2026-01-19T00:12:49Z",
+        "sha256": "b3097402089ffe24288a7143776674fce62fbe349d2727db4d7a4f51164ef73e"
+      },
+      {
+        "path": "conversion_package/requirements.txt",
+        "size_bytes": 30,
+        "mtime_utc": "2026-01-06T18:29:04Z",
+        "sha256": "6c7f7346e78ed6b34a7772bbd867e6003f89313d9482834b82e661b5cc622aa7"
+      },
+      {
+        "path": "conversion_package/scripts/convert_xdf_to_bids_eeg.py",
+        "size_bytes": 6454,
+        "mtime_utc": "2026-01-18T20:58:50Z",
+        "sha256": "9c5fec63a50847845cef335dd18eeb1c56a998739472a588ef8778dc4b0c2a7d"
+      },
+      {
+        "path": "conversion_package/scripts/extract_nback_markers.py",
+        "size_bytes": 2028,
+        "mtime_utc": "2026-01-18T20:52:17Z",
+        "sha256": "9660fc28196c2a4b1524505db02d21e65c0769161cca86d301cd1de75a2fc882"
+      },
+      {
+        "path": "conversion_package/scripts/fix_physio_headers.py",
+        "size_bytes": 4256,
+        "mtime_utc": "2026-01-18T20:59:04Z",
+        "sha256": "ed02d65fce2e1d664f9ed11f260c1757c14214bf17c446a9ea67feb7405b9baa"
+      },
+      {
+        "path": "conversion_package/scripts/marker_extraction.py",
+        "size_bytes": 16186,
+        "mtime_utc": "2026-01-19T00:07:50Z",
+        "sha256": "1e791db562c9872c2759182b9590cf66152d67f165e4a3c13f7cea3b16e2cbbb"
+      },
+      {
+        "path": "conversion_package/scripts/postprocess_bids.py",
+        "size_bytes": 34965,
+        "mtime_utc": "2026-01-19T00:07:56Z",
+        "sha256": "e8e02e80e7bd51ea688a1af8e18d4a6c55416f09f1004e792a3f5939543667ae"
+      },
+      {
+        "path": "conversion_package/scripts/prepare_sourcedata_xdf.py",
+        "size_bytes": 4158,
+        "mtime_utc": "2026-01-18T20:58:55Z",
+        "sha256": "35938b7a9b1f4c0cc1238c105ce1abf2c78fc1759d15aadd5bbd1492fbd2513d"
+      },
+      {
+        "path": "conversion_package/scripts/record_conversion_manifest.py",
+        "size_bytes": 9972,
+        "mtime_utc": "2026-01-13T00:14:45Z",
+        "sha256": "f391a6c130a63a5de29e256f8b21e46020aeda85f79730dc114ac323cffbc7b0"
+      },
+      {
+        "path": "conversion_package/scripts/run_postprocess_bids.ps1",
+        "size_bytes": 739,
+        "mtime_utc": "2026-01-13T00:12:10Z",
+        "sha256": "5dfd5b482ad32c4cab60c450149050681220aa68c8bd2fcec0993a06c8e58822"
+      },
+      {
+        "path": "conversion_package/scripts/update_ecg_map_from_channels.py",
+        "size_bytes": 3260,
+        "mtime_utc": "2026-01-18T20:55:41Z",
+        "sha256": "ec3d44d0315f00b165e4fac0f441eff6ff6cc487ccceaa656bfa894f68cbdc7e"
+      },
+      {
+        "path": "conversion_package/scripts/update_participants_from_xlsx.py",
+        "size_bytes": 14314,
+        "mtime_utc": "2026-01-18T20:55:59Z",
+        "sha256": "965bf61cde76e6c9375c618f41d9e2674e9df48a70ceaa438e7cf478eb9231d7"
+      }
+    ]
+  },
+  "bids_outputs": [
+    {
+      "path": "bids_nback",
+      "subject_count": 18,
+      "file_count": 224,
+      "total_bytes": 2291344967
+    }
+  ]
+}

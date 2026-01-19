@@ -1,0 +1,40 @@
+{
+  "eeg": {
+    "defaults": {
+      "Manufacturer": "io:bio",
+      "ManufacturersModelName": "io:bio mobile EEG system",
+      "SoftwareVersions": "n/a",
+      "DeviceSerialNumber": "003",
+      "EEGReference": "linked ears (Ag/AgCl)",
+      "CapManufacturer": "Spes Medica",
+      "CapManufacturersModelName": "n/a",
+      "HardwareFilters": {
+        "Low-pass filter": {
+          "Half amplitude cutoff (Hz)": 125
+        },
+        "Notch filter": {
+          "Center frequency (Hz)": 50
+        }
+      },
+      "SubjectArtefactDescription": "n/a",
+      "InstitutionName": "n/a",
+      "InstitutionAddress": "n/a",
+      "InstitutionalDepartmentName": "n/a"
+    },
+    "tasks": {
+      "nback": {
+        "TaskDescription": "N-back task with baseline and 1-4 back levels.",
+        "Instructions": "Press the spacebar when the letter matches the one presented N steps back.",
+        "CogAtlasID": "n/a"
+      }
+    }
+  },
+  "physio": {
+    "ecg": {
+      "Manufacturer": "io:bio",
+      "ManufacturersModelName": "io:bio mobile EEG system",
+      "SoftwareVersions": "n/a",
+      "DeviceSerialNumber": "n/a"
+    }
+  }
+}
