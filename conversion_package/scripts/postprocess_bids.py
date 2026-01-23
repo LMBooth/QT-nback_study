@@ -522,38 +522,31 @@ def apply_eeg_sidecar_defaults(*, bids_root: Path, metadata: dict[str, Any]) -> 
     if not defaults:
         return
 
-    subject_defaults = dict(defaults)
     drop_keys = []
     if "HeadCircumference" not in defaults:
         drop_keys.append("HeadCircumference")
 
     eeg_jsons = list(bids_root.glob(f"sub-*/eeg/*_task-{task}_eeg.json"))
+    task_sidecar = bids_root / f"task-{task}_eeg.json"
+    data = _load_json(task_sidecar) if task_sidecar.exists() else {}
+    data.pop("RecordingDuration", None)
+    if "HardwareFilters" not in defaults:
+        data.pop("HardwareFilters", None)
+    for key in drop_keys:
+        data.pop(key, None)
+    data.update(defaults)
+    if "TaskName" not in data:
+        data["TaskName"] = task
+    _write_json(task_sidecar, data)
+
+    inherited_keys = set(defaults.keys())
     for eeg_json in eeg_jsons:
         data = _load_json(eeg_json)
         for key in drop_keys:
             data.pop(key, None)
-        data.update(subject_defaults)
+        for key in inherited_keys:
+            data.pop(key, None)
         _write_json(eeg_json, data)
-
-    task_sidecar = bids_root / f"task-{task}_eeg.json"
-    if task_sidecar.exists():
-        data = _load_json(task_sidecar)
-        if "HardwareFilters" not in defaults:
-            data.pop("HardwareFilters", None)
-        for key in drop_keys:
-            data.pop(key, None)
-        data.update(defaults)
-        _write_json(task_sidecar, data)
-    elif eeg_jsons:
-        data = _load_json(eeg_jsons[0])
-        if "HardwareFilters" not in defaults:
-            data.pop("HardwareFilters", None)
-        for key in drop_keys:
-            data.pop(key, None)
-        data.update(defaults)
-        if "TaskName" not in data:
-            data["TaskName"] = task
-        _write_json(task_sidecar, data)
 
 
 def _collect_unique_column_values(

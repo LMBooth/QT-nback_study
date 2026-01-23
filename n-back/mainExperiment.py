@@ -183,7 +183,7 @@ class MainExperiment(QtWidgets.QTabWidget):
         print("Steps:"+str(self.numberBack)+" KeyPress:"+str(self.keyPress)+" Target:"+str(self.target))
         self.keyPress = False
         self.triggerCount += 1
-        QTimer.singleShot(700, self.DoRoutine)
+        QTimer.singleShot(1000, self.DoRoutine)
 
 if __name__ == '__main__':
     import sys

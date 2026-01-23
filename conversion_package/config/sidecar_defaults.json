@@ -25,7 +25,8 @@
       "nback": {
         "TaskDescription": "N-back task with baseline and 1-4 back levels.",
         "Instructions": "Press the spacebar when the letter matches the one presented N steps back.",
-        "CogAtlasID": "n/a"
+        "CogAtlasID": "n/a",
+        "CogPOID": "http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00093"
       }
     }
   },

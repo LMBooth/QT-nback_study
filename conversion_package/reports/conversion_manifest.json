@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-01-19T00:21:00Z",
+  "created_utc": "2026-01-23T13:40:14Z",
   "repo_root": ".",
   "environment": {
     "python": {
@@ -159,9 +159,9 @@
     "pip_freeze_error": null
   },
   "git": {
-    "commit": "eca9f08f1ad11dfc466da78f282bc6c46e4a2018",
+    "commit": "d9bd91b558f3775c19e807914f998af4ecf76ffc",
     "dirty": true,
-    "describe": "eca9f08-dirty"
+    "describe": "d9bd91b-dirty"
   },
   "inputs": {
     "raw_dirs": [
@@ -321,9 +321,9 @@
       },
       {
         "path": "conversion_package/config/sidecar_defaults.json",
-        "size_bytes": 1130,
-        "mtime_utc": "2026-01-18T20:51:49Z",
-        "sha256": "36fad8fc2af8a415cfe33036c8dbaea3a38e7e2c6d7f7ffa9382ba53ff1cddc6"
+        "size_bytes": 1210,
+        "mtime_utc": "2026-01-19T22:01:24Z",
+        "sha256": "a15a0d073d4f2828cea383e03fd80e86129726ba816c916f810da935285ae86f"
       },
       {
         "path": "conversion_package/qc/bids_signal_viewer.py",
@@ -345,9 +345,9 @@
       },
       {
         "path": "conversion_package/reports/conversion_manifest.json",
-        "size_bytes": 14755,
-        "mtime_utc": "2026-01-19T00:12:49Z",
-        "sha256": "5c34156b52d70ab394c8f917c425e61afdb1488f42f747b30ee8a33f7c8f5c96"
+        "size_bytes": 15249,
+        "mtime_utc": "2026-01-19T00:21:01Z",
+        "sha256": "d5d0dbb715332981b910aa991ea1d2d023c734039c822b0bc4d979b7cf205270"
       },
       {
         "path": "conversion_package/requirements-qc.txt",
@@ -358,7 +358,7 @@
       {
         "path": "conversion_package/requirements.lock.txt",
         "size_bytes": 2512,
-        "mtime_utc": "2026-01-19T00:12:49Z",
+        "mtime_utc": "2026-01-19T00:21:01Z",
         "sha256": "b3097402089ffe24288a7143776674fce62fbe349d2727db4d7a4f51164ef73e"
       },
       {
@@ -393,9 +393,9 @@
       },
       {
         "path": "conversion_package/scripts/postprocess_bids.py",
-        "size_bytes": 34965,
-        "mtime_utc": "2026-01-19T00:07:56Z",
-        "sha256": "e8e02e80e7bd51ea688a1af8e18d4a6c55416f09f1004e792a3f5939543667ae"
+        "size_bytes": 34721,
+        "mtime_utc": "2026-01-19T22:01:50Z",
+        "sha256": "0e09a48d972135dc900b6c11a25e9a96241efc13b6f0efedd04f3f52a4c2f372"
       },
       {
         "path": "conversion_package/scripts/prepare_sourcedata_xdf.py",
@@ -434,7 +434,7 @@
       "path": "bids_nback",
       "subject_count": 18,
       "file_count": 224,
-      "total_bytes": 2291344967
+      "total_bytes": 2291331095
     }
   ]
 }
