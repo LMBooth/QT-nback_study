@@ -53,7 +53,7 @@ class MainExperiment(QtWidgets.QTabWidget):
                                      "First you will be shown a tutorial for all the four levels of difficulty \n"
                                      "where you are informed if you gave a correct or incorrect response. \n"
                                      "You will not be informed in the actual experiment. \n \n"
-                                     "Please keep your head as still as possbile during the experiment\n"
+                                     "Please keep your head as still as possible during the experiment\n"
                                      "and minimise your movements to the required keyboard presses.\n\n"
                                      "You will have a 1 minute blank period to start. \n "
                                      "Please keep your attention focused on x in the middle of the monitor for this minute.\n\n"
